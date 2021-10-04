@@ -18,19 +18,19 @@ def manual_mov():
             robot_control.speeds=(-Speed,Speed,0)
         elif k == ord("d"):
             print("Right")
-            robot_control.speeds=(Speed,Speed,Speed)
+            robot_control.speeds=(-Speed,-Speed,-Speed)
         elif k == ord("a"):
             print("Left")
-            robot_control.speeds=(-Speed,-Speed,-Speed)
+            robot_control.speeds=(Speed,Speed,Speed)
         elif k == ord("t"):
             print("Throw")
-            robot_control.robot_control["thrower"]=Speed
+            robot_control.robot_control["thrower"]=0
         elif k == ord("q"):
             print("Break")
             break
-        else:
+        elif k == ord("c"):
             robot_control.speeds=(0,0,0)
-            robot_control.robot_control["thrower"]=0
+            print("stop")
     time.sleep(0.2)
     cv2.destroyAllWindows()
 if __name__ == "__main__":
