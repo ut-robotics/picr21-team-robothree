@@ -11,10 +11,7 @@ format_send='<hhhHBH'
 format_receive='<hhhH'
 receive_size=struct.calcsize(format_receive)
 send_size=struct.calcsize(format_send)
-def omni_movement(self, speed, middle_px, X=None, Y=None):
-    speeds[0] = self.wheelLinearVelocity(speed, self.right_wheel_angle, middle_px, X, Y) #parem
-    speeds[1] = self.wheelLinearVelocity(speed, self.middle_wheel_angle, middle_px, X, Y) #keskmine
-    speeds[2] = self.wheelLinearVelocity(speed, self.left_wheel_angle, middle_px, X, Y) #vasak
+
 def sending():
     global speeds
     while True:
