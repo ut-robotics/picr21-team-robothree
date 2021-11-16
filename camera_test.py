@@ -12,7 +12,8 @@ pipeline = rs.pipeline()
 config = rs.config()
 
 DEBUG=1
-
+CAM_HEIGHT=540
+CAM_WIDTH=960
 # Get device product line for setting a supporting resolution
 pipeline_wrapper = rs.pipeline_wrapper(pipeline)
 pipeline_profile = config.resolve(pipeline_wrapper)
@@ -174,7 +175,7 @@ def camera_thread():
         exit(0)
 
     config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
-    config.enable_stream(rs.stream.color, 960, 540, rs.format.bgr8, 60)
+    config.enable_stream(rs.stream.color, CAM_WIDTH, CAM_HEIGHT, rs.format.bgr8, 60)
 
     # Start streaming
     pipeline.start(config)
