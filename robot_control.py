@@ -1,9 +1,9 @@
 import struct
 import time
 import serial
-robot_control = {"motor1":0,"motor2":0,"motor3":0,"thrower":0}
-real_robot = {"motor1":0,"motor2":0,"motor3":0}
-speeds=(0,0,0)
+real_robot_speeds=(0,0,0)
+send_motor_speeds=(0,0,0)
+thrower_speed=0
 WHEEL_ANGLE=120
 
 feedback_delimiter=0
@@ -13,7 +13,7 @@ receive_size=struct.calcsize(format_receive)
 send_size=struct.calcsize(format_send)
 
 def sending():
-    global speeds
+    global send_motor_speeds
     while True:
         try:
             mainboard= serial.Serial(port="COM7",
@@ -21,16 +21,15 @@ def sending():
             print("done")
             break
         except:
-            pass
+            print("miskit juhtus")
     while True:
         time.sleep(0.1)
         while mainboard.inWaiting() > 0:
-                data = mainboard.read(receive_size)
-                receive=struct.unpack(format_receive,data)
-                real_robot["motor1"]=receive[0]
-                real_robot["motor2"]=receive[1]
-                real_robot["motor3"]=receive[2]
-                feedback_delimiter=receive[3]
-        asi=struct.pack(format_send, speeds[0],speeds[1],speeds[2],robot_control["thrower"],0,0xAAAA)
-        mainboard.write(asi)
-        print(asi)
+                receive_struct = mainboard.read(receive_size)
+                receive_array=struct.unpack(format_receive,receive_struct)
+                real_robot_speeds[0]=receive_array[0]
+                real_robot_speeds[1]=receive_array[1]
+                real_robot_speeds[2]=receive_array[2]
+                feedback_delimiter=receive_array[3]
+        send_struct=struct.pack(format_send, send_motor_speeds[0],send_motor_speeds[1],thrower_speed,0,0xAAAA)
+        mainboard.write(send_struct)

@@ -21,22 +21,22 @@ device = pipeline_profile.get_device()
 device_product_line = str(device.get_info(rs.camera_info.product_line))
 try:
     if os.path.isfile("trackbar_defaults_green.txt"):
-        with open("trackbar_defaults_green.txt", "r") as andmed:
-            andmed_list = andmed.readlines()
-            lH = int(andmed_list[0])
-            lS = int(andmed_list[1])
-            lV = int(andmed_list[2])
-            hH = int(andmed_list[3])
-            hS = int(andmed_list[4])
-            hV = int(andmed_list[5])
+        with open("trackbar_defaults_green.txt", "r") as data:
+            data_list = data.readlines()
+            lH = int(data_list[0])
+            lS = int(data_list[1])
+            lV = int(data_list[2])
+            hH = int(data_list[3])
+            hS = int(data_list[4])
+            hV = int(data_list[5])
 
 
-            lH_Rect = int(andmed_list[6])
-            lS_Rect = int(andmed_list[7])
-            lV_Rect = int(andmed_list[8])
-            hH_Rect = int(andmed_list[9])
-            hS_Rect = int(andmed_list[10])
-            hV_Rect = int(andmed_list[11])
+            lH_Rect = int(data_list[6])
+            lS_Rect = int(data_list[7])
+            lV_Rect = int(data_list[8])
+            hH_Rect = int(data_list[9])
+            hS_Rect = int(data_list[10])
+            hV_Rect = int(data_list[11])
 
 
     else:
@@ -152,15 +152,12 @@ def camera_thread():
             found_rgb = True
             break
     if not found_rgb:
-        print("The demo requires Depth camera with Color sensor")
+        print("[INFO] Dude i cant find the camera")
         exit(0)
 
     config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
+    config.enable_stream(rs.stream.color, 960, 540, rs.format.bgr8, 60)
 
-    if device_product_line == 'L500':
-        config.enable_stream(rs.stream.color, 960, 540, rs.format.bgr8, 30)
-    else:
-        config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
 
     # Start streaming
     pipeline.start(config)
