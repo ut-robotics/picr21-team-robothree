@@ -12,16 +12,16 @@ def manual_mov():
 
         if k == ord("w"):
             print("Forward")
-            robot_control.motor_speeds=(max_speed,-max_speed,0)
+            robot_control.send_motor_speeds=(max_speed,-max_speed,0)
         elif k == ord("s"):
             print("Backward")
-            robot_control.motor_speeds=(-max_speed,max_speed,0)
+            robot_control.send_motor_speeds=(-max_speed,max_speed,0)
         elif k == ord("d"):
             print("Right")
-            robot_control.motor_speeds=(-max_speed,-max_speed,-max_speed)
+            robot_control.send_motor_speeds=(-max_speed,-max_speed,-max_speed)
         elif k == ord("a"):
             print("Left")
-            robot_control.motor_speeds=(max_speed,max_speed,max_speed)
+            robot_control.send_motor_speeds=(max_speed,max_speed,max_speed)
         elif k == ord("t"):
             print("Throw")
             robot_control.thrower_speed=0
@@ -29,7 +29,7 @@ def manual_mov():
             print("Break")
             break
         elif k == ord("c"):
-            robot_control.motor_speeds=(0,0,0)
+            robot_control.send_motor_speeds=(0,0,0)
             robot_control.thrower_speed=0
             print("stop")
     time.sleep(0.2)
