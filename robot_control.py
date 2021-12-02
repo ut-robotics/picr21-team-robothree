@@ -3,8 +3,8 @@ import time
 import serial
 import math
 from camera_test import CAM_HEIGHT, CAM_WIDTH
-real_robot_speeds=(0,0,0)
-send_motor_speeds=(0,0,0)
+real_robot_speeds=[0,0,0]
+send_motor_speeds=[0,0,0]
 thrower_speed=0
 WHEEL_ANGLE=120
 
@@ -36,7 +36,7 @@ def sending():
     global send_motor_speeds
     while True:
         try:
-            mainboard= serial.Serial(port="COM7",
+            mainboard= serial.Serial('/dev/ttyACM1',
                 baudrate=115200)
             print("done")
             break
@@ -51,5 +51,5 @@ def sending():
                 real_robot_speeds[1]=receive_array[1]
                 real_robot_speeds[2]=receive_array[2]
                 feedback_delimiter=receive_array[3]
-        send_struct=struct.pack(format_send, send_motor_speeds[0],send_motor_speeds[1],thrower_speed,0,0xAAAA)
+        send_struct=struct.pack(format_send, send_motor_speeds[0],send_motor_speeds[1],send_motor_speeds[2],thrower_speed,0,0xAAAA)
         mainboard.write(send_struct)
