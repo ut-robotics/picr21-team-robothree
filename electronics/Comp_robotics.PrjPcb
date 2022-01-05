@@ -35,30 +35,19 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\..\Henri\Downloads\MAX12930EASA_\SOIC127P600X175-8N.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WABMAYBX
-
-[Document2]
-DocumentPath=..\..\..\..\..\Henri\Downloads\10118193-0001LF\SnapEDApcb.PcbLib
+DocumentPath=..\..\..\..\Downloads\10118193-0001LF (1)\uUSBFP.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -74,8 +63,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
 
+[Document2]
+DocumentPath=..\..\..\..\Downloads\MAX12930EASA_\SOIC127P600X175-8N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WABMAYBX
+
 [Document3]
-DocumentPath=..\..\..\..\..\Henri\Downloads\SOT95P275X110-5N.PcbLib
+DocumentPath=..\..\..\..\Downloads\10118193-0001LF\SnapEDApcb.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GMIVLSFD
+
+[Document4]
+DocumentPath=..\..\..\..\Downloads\SOT95P275X110-5N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -91,8 +114,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WJYYPUQW
 
-[Document4]
-DocumentPath=..\..\..\..\..\Henri\Downloads\FTSH-105-01-XXX-DV-K--Symbol-Altium-44987\FTSH-105-01-XXX-DV-K.PcbLib
+[Document5]
+DocumentPath=..\..\..\..\Downloads\FTSH-105-01-XXX-DV-K--Symbol-Altium-44987\FTSH-105-01-XXX-DV-K.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -108,8 +131,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LBHPBJYV
 
-[Document5]
-DocumentPath=..\..\..\..\..\Henri\Downloads\SOP95P275X110-5N.PcbLib
+[Document6]
+DocumentPath=..\..\..\..\Downloads\SOP95P275X110-5N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -125,8 +148,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OKTDISUS
 
-[Document6]
-DocumentPath=..\..\..\..\..\Henri\Downloads\SOIC127P600X175-16N.PcbLib
+[Document7]
+DocumentPath=..\..\..\..\Downloads\SOIC127P600X175-16N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -142,8 +165,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NSEJYBDF
 
-[Document7]
-DocumentPath=..\..\..\..\..\Henri\Downloads\TO127P600X120-5N.PcbLib
+[Document8]
+DocumentPath=..\..\..\..\Downloads\TO127P600X120-5N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -159,8 +182,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OLPROBPE
 
-[Document8]
-DocumentPath=..\..\..\..\..\Henri\Downloads\SOT95P275X110-5N (1).PcbLib
+[Document9]
+DocumentPath=..\..\..\..\Downloads\SOT95P275X110-5N (1).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -176,7 +199,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FESLMIIU
 
-[Document9]
+[Document10]
 DocumentPath=Mainboard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +216,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UGBRAJUH
 
-[Document10]
+[Document11]
 DocumentPath=CM1223-2SO.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,8 +233,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FWNQKSFY
 
-[Document11]
-DocumentPath=..\..\..\..\..\Henri\Downloads\MAX12930EASA_\MAX12930EASA+.SchLib
+[Document12]
+DocumentPath=..\..\..\..\Downloads\MAX12930EASA_\MAX12930EASA+.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -227,8 +250,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GWJFBUOC
 
-[Document12]
-DocumentPath=..\..\..\..\..\Henri\Downloads\FTSH-105-01-XXX-DV-K--Symbol-Altium-44987\FTSH-105-01-XXX-DV-K.SCHLIB
+[Document13]
+DocumentPath=..\..\..\..\Downloads\FTSH-105-01-XXX-DV-K--Symbol-Altium-44987\FTSH-105-01-XXX-DV-K.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -244,8 +267,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WEHEQSLJ
 
-[Document13]
-DocumentPath=..\..\..\..\..\Henri\Downloads\10118193-0001LF\SnapEDAsch.SchLib
+[Document14]
+DocumentPath=..\..\..\..\Downloads\10118193-0001LF\SnapEDAsch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -261,7 +284,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JVHTISAB
 
-[Document14]
+[Document15]
 DocumentPath=NCP164.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +301,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WTRSYUOW
 
-[Document15]
+[Document16]
 DocumentPath=NCV8730.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +318,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WANEOKUJ
 
-[Document16]
+[Document17]
 DocumentPath=MAX14930.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +335,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GBGHNJHF
 
-[Document17]
+[Document18]
 DocumentPath=BUK6Y10.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +352,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJAUVPPP
 
-[Document18]
+[Document19]
 DocumentPath=STM32G441KB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,8 +369,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMCVZCCB
 
-[Document19]
-DocumentPath=..\..\..\..\..\Henri\Downloads\texas_instruments.PcbLib
+[Document20]
+DocumentPath=..\..\..\..\Downloads\texas_instruments.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -363,7 +386,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TAWXEOFU
 
-[Document20]
+[Document21]
 DocumentPath=STM32.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +403,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JDPHWSKE
 
-[Document21]
+[Document22]
 DocumentPath=DRV8243.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -397,7 +420,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNNRHRJU
 
-[Document22]
+[Document23]
 DocumentPath=DRV8243FP.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -414,7 +437,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OKGMKFEO
 
-[Document23]
+[Document24]
 DocumentPath=215079-4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +454,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GSZOCIKU
 
-[Document24]
+[Document25]
 DocumentPath=Motorpad.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -448,7 +471,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WLTPFTOH
 
-[Document25]
+[Document26]
 DocumentPath=Batteryterminal.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -465,7 +488,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GJWCAHVV
 
-[Document26]
+[Document27]
 DocumentPath=NCV8730fp.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -482,7 +505,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VJOHNRFK
 
-[Document27]
+[Document28]
 DocumentPath=Pads.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -499,8 +522,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ACJYHCOU
 
-[Document28]
-DocumentPath=..\..\..\..\..\Henri\Downloads\connectors_micromatch.PcbLib
+[Document29]
+DocumentPath=..\..\..\..\Downloads\connectors_micromatch.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -515,6 +538,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VPVOJVXH
+
+[Document30]
+DocumentPath=robothreePCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PAXDPYED
 
 [Configuration1]
 Name=Sources
@@ -1113,7 +1153,7 @@ Type32=1
 Type33=1
 Type34=1
 Type35=1
-Type36=1
+Type36=0
 Type37=1
 Type38=1
 Type39=1
@@ -1440,6 +1480,96 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=10118193-0001LF (1).IntLib
+ComponentDesignItemID0=10118193-0001LF
+ComponentSymbolReference0=10118193-0001LF
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=215079-4.SchLib
+ComponentDesignItemID1=215079-4
+ComponentSymbolReference1=215079-4
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Batteryterminal.SchLib
+ComponentDesignItemID2=Bat
+ComponentSymbolReference2=Bat
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=BUK6Y10.SchLib
+ComponentDesignItemID3=BUK6Y10
+ComponentSymbolReference3=BUK6Y10
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=CM1223-2SO.SchLib
+ComponentDesignItemID4=CM1223-02SO
+ComponentSymbolReference4=CM1223-02SO
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=FTSH-105-01-XXX-DV-K.SCHLIB
+ComponentDesignItemID5=FTSH-105-01-XXX-DV-K
+ComponentSymbolReference5=FTSH-105-01-XXX-DV-K
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=MAX14930.SchLib
+ComponentDesignItemID6=MAX14930
+ComponentSymbolReference6=MAX14930
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Miscellaneous Devices.IntLib
+ComponentDesignItemID7=Cap Semi
+ComponentSymbolReference7=Cap Semi
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Motorpad.SchLib
+ComponentDesignItemID8=Motor Pad
+ComponentSymbolReference8=Motor Pad
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=NCP164.SchLib
+ComponentDesignItemID9=NCP164
+ComponentSymbolReference9=NCP164
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=NCV8730.SchLib
+ComponentDesignItemID10=NCV8730
+ComponentSymbolReference10=NCV8730
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=PBL - Resistors.SCHLIB
+ComponentDesignItemID11=RES_100K_0603_1%
+ComponentSymbolReference11=RES_100K_0603_1%
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=PBL - Resistors.SCHLIB
+ComponentDesignItemID12=RES_2K2_0603_5%
+ComponentSymbolReference12=RES_2K2_0603_5%
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=STM32G441KB.SchLib
+ComponentDesignItemID13=STM32G441KB
+ComponentSymbolReference13=STM32G441KB
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=texas_instruments.IntLib
+ComponentDesignItemID14=DRV8243H-Q1_VQFN-HR_14
+ComponentSymbolReference14=DRV8243H-Q1_VQFN-HR_14
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1453,6 +1583,190 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Availability
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=ComponentLink2Description
+ParameterUpdate5=1
+ParameterName6=ComponentLink2URL
+ParameterUpdate6=1
+ParameterName7=ComponentLink3Description
+ParameterUpdate7=1
+ParameterName8=ComponentLink3URL
+ParameterUpdate8=1
+ParameterName9=ComponentLink4Description
+ParameterUpdate9=1
+ParameterName10=ComponentLink4URL
+ParameterUpdate10=1
+ParameterName11=ComponentLink5Description
+ParameterUpdate11=1
+ParameterName12=ComponentLink5URL
+ParameterUpdate12=1
+ParameterName13=CREATED
+ParameterUpdate13=1
+ParameterName14=Description
+ParameterUpdate14=1
+ParameterName15=LatestRevisionDate
+ParameterUpdate15=1
+ParameterName16=LatestRevisionNote
+ParameterUpdate16=1
+ParameterName17=Library Reference
+ParameterUpdate17=1
+ParameterName18=MANUFACTURER
+ParameterUpdate18=1
+ParameterName19=Manufacturer 1
+ParameterUpdate19=1
+ParameterName20=Manufacturer 2
+ParameterUpdate20=1
+ParameterName21=Manufacturer 3
+ParameterUpdate21=1
+ParameterName22=Manufacturer 4
+ParameterUpdate22=1
+ParameterName23=Manufacturer 5
+ParameterUpdate23=1
+ParameterName24=Manufacturer Part Number 1
+ParameterUpdate24=1
+ParameterName25=Manufacturer Part Number 2
+ParameterUpdate25=1
+ParameterName26=Manufacturer Part Number 3
+ParameterUpdate26=1
+ParameterName27=Manufacturer Part Number 4
+ParameterUpdate27=1
+ParameterName28=Manufacturer Part Number 5
+ParameterUpdate28=1
+ParameterName29=Material
+ParameterUpdate29=1
+ParameterName30=MF
+ParameterUpdate30=1
+ParameterName31=MODIFIED
+ParameterUpdate31=1
+ParameterName32=MP
+ParameterUpdate32=1
+ParameterName33=Package
+ParameterUpdate33=1
+ParameterName34=Package / Case
+ParameterUpdate34=1
+ParameterName35=PackageDescription
+ParameterUpdate35=1
+ParameterName36=PackageReference
+ParameterUpdate36=1
+ParameterName37=PCB DECAL
+ParameterUpdate37=1
+ParameterName38=Price
+ParameterUpdate38=1
+ParameterName39=Published
+ParameterUpdate39=1
+ParameterName40=Publisher
+ParameterUpdate40=1
+ParameterName41=Ratings
+ParameterUpdate41=1
+ParameterName42=RoHS 1
+ParameterUpdate42=1
+ParameterName43=RoHS 2
+ParameterUpdate43=1
+ParameterName44=RoHS 3
+ParameterUpdate44=1
+ParameterName45=RoHS 4
+ParameterUpdate45=1
+ParameterName46=RoHS 5
+ParameterUpdate46=1
+ParameterName47=SCDType
+ParameterUpdate47=1
+ParameterName48=SnapEDA_Link
+ParameterUpdate48=1
+ParameterName49=Supplier 1
+ParameterUpdate49=1
+ParameterName50=Supplier 2
+ParameterUpdate50=1
+ParameterName51=Supplier 3
+ParameterUpdate51=1
+ParameterName52=Supplier 4
+ParameterUpdate52=1
+ParameterName53=Supplier 5
+ParameterUpdate53=1
+ParameterName54=Supplier Part Number 1
+ParameterUpdate54=1
+ParameterName55=Supplier Part Number 2
+ParameterUpdate55=1
+ParameterName56=Supplier Part Number 3
+ParameterUpdate56=1
+ParameterName57=Supplier Part Number 4
+ParameterUpdate57=1
+ParameterName58=Supplier Part Number 5
+ParameterUpdate58=1
+ParameterName59=Temperature Coefficient
+ParameterUpdate59=1
+ParameterName60=Tolerance
+ParameterUpdate60=1
+ParameterName61=Value
+ParameterUpdate61=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=0402
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=1608[0603]
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=C1206
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=C1210
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=C2512
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=DRV8243_VQFN-HR_14
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=FCI_10118193-0001LF
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=FTSH-105-01-XXX-DV-K
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=MICRO-MATCH-FOB-04
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=motorPads
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=RESC1608X55N
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SOIC127P600X175-16N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SOT95P275X110-5N
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=TO127P600X120-5N
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=TQFP80P900X900X160-32N
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=TSOP95P280X110-5N
+ModelUpdate15=1
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType16=SI
+ModelName16=Cap Semi
+ModelUpdate16=1
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType17=SIM
+ModelName17=CAP
+ModelUpdate17=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
