@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: robothreePCB.PcbDoc   07.01.2022  14:17:21
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : robothreePCB-RoundHoles.TXT
+ASCII SlotHoles File : robothreePCB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             95        PTH        11.01inch (279.55mm)
+T2      12mil (0.3mm)                                             Round             52        PTH        8.69inch (220.72mm)
+T3      20mil (0.5mm)                                             Slot              2         PTH        0.58inch (14.64mm)
+T4      32mil (0.8mm)                                             Round             16        PTH        3.05inch (77.42mm)
+T5      118mil (3mm)                                              Round             2         PTH        1.34inch (34.00mm)
+T6      59mil (1.501mm)                                           Round             4         NPTH       1.89inch (47.96mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              171
+
+Total Processing Time (hh:mm:ss) : 00:00:00

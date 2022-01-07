@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Comp_robotics.PrjPcb]
+   Generated File[robothreePCB-RoundHoles.TXT]
+   Generated File[robothreePCB-SlotHoles.TXT]
+   Generated File[robothreePCB.LDP]
+   Generated File[robothreePCB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 14:17:21 On 07.01.2022

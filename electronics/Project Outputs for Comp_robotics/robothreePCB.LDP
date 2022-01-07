@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Henri\Desktop\PICR21_altiumproj\picr21-team-robothree\electronics\robothreePCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=robothreepcb-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=robothreepcb-slotholes.txt|DrillLayers=gtl,g1,g2,gbl
