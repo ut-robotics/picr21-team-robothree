@@ -1,13 +1,30 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Comp_robotics.PrjPcb]
-   Generated File[robothreePCB-RoundHoles.TXT]
-   Generated File[robothreePCB-SlotHoles.TXT]
-   Generated File[robothreePCB.LDP]
-   Generated File[robothreePCB.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Comp_robotics.PrjPcb]
+   Generated File[robothreePCB.GTO]
+   Generated File[robothreePCB.GTP]
+   Generated File[robothreePCB.GTS]
+   Generated File[robothreePCB.GTL]
+   Generated File[robothreePCB.G1]
+   Generated File[robothreePCB.G2]
+   Generated File[robothreePCB.GBL]
+   Generated File[robothreePCB.GBS]
+   Generated File[robothreePCB.GBP]
+   Generated File[robothreePCB.GBO]
+   Generated File[robothreePCB.GM1]
+   Generated File[robothreePCB.GM2]
+   Generated File[robothreePCB.GM13]
+   Generated File[robothreePCB.GM15]
+   Generated File[robothreePCB.GPT]
+   Generated File[robothreePCB.GPB]
+   Generated File[robothreePCB.GD1]
+   Generated File[robothreePCB.GG1]
+   Generated File[robothreePCB.RUL]
+   Generated File[robothreePCB.EXTREP]
+   Generated File[robothreePCB.REP]
 
 
-Files Generated   : 4
+Files Generated   : 21
 Documents Printed : 0
 
-Finished Output Generation At 14:17:21 On 07.01.2022
+Finished Output Generation At 14:53:54 On 07.01.2022
